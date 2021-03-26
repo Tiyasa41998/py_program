@@ -4,7 +4,7 @@ uc=0
 for i in s:
     if (i.islower()):
        lc=lc+1
-    else:
+    elif(i.isupper()):
         uc=uc+1
 print(lc)
 print(uc)
